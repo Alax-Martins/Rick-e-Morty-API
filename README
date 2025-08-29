@@ -1,0 +1,47 @@
+# Rick and Morty Character Finder
+
+Esta é uma aplicação simples que consome a API pública do Rick and Morty para buscar informações sobre personagens da série.
+
+## Funcionalidades
+
+- Busca de personagens pelo ID.
+- Exibição de informações específicas do personagem, como nome, status, espécie, gênero, planeta de origem, imagem e episódios.
+- Opção de selecionar quais informações serão exibidas.
+
+## Estrutura do Projeto
+
+- `index.html`: Estrutura HTML da aplicação.
+- `styles.css`: Estilos para a interface da aplicação.
+- `script.js`: Lógica da aplicação, incluindo a integração com a API.
+
+## Como Usar
+
+1. Clone este repositório ou baixe os arquivos.
+2. Abra o arquivo `index.html` em um navegador.
+3. Insira o ID de um personagem no campo de entrada.
+4. Selecione as informações que deseja visualizar marcando as caixas de seleção.
+5. Clique no botão "Pesquisar" para exibir os dados do personagem.
+
+## Tecnologias Utilizadas
+
+- **HTML**: Estrutura da interface.
+- **CSS**: Estilização da interface.
+- **JavaScript**: Lógica da aplicação e consumo da API.
+- **[Rick and Morty API](https://rickandmortyapi.com/)**: Fonte dos dados dos personagens.
+
+## Exemplo de Uso
+
+- Insira o ID `1` no campo de entrada.
+- Marque as caixas de seleção para "Nome" e "Status".
+- Clique em "Pesquisar".
+- O nome e o status do personagem serão exibidos no campo de resultado.
+
+## Melhorias Futuras
+
+- Adicionar suporte para busca por nome.
+- Melhorar o design da interface.
+- Exibir mensagens de erro para IDs inválidos.
+
+## Licença
+
+Este projeto é de uso livre e não possui uma licença específica.
